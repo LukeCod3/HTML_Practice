@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table, th, td {
+          border: 3px solid black;
+          border-radius: 5px;
+          border-style: dashed;
+          border-color: purple;
+          border-collapse: collapse;
+        }
+        th, td {
+        background-color: red;
+        }
+        tr:nth-child(even) {
+        background-color: yellow;
+        }
+        td:nth-child(even), th:nth-child(even) {
+        background-color: yellow;
+    </style>
+</head>
+<body>
+
+<h2>Table With Border</h2>
+
+<p>Use the CSS border property to add a border to the table.</p>
+
+<table style="width:150%">
+    <caption>Name and age</caption>
+    <tr>
+        <th style="width:50%">Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+    </tr>
+    <tr style="height:250px">
+        <td>Daniel</td>
+        <td>Smith</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>Luke</td>
+        <td>Singh-Afariogun</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>80</td>
+    </tr>
+</table>
+
+</body>
+</html>
