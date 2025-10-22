@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<p>Euro sign as a html entity  &euro;</p>
+<p>copyright sign as a html entity &copy;</p>
+
+<p>emoji &#128512;</p>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+    <label for="fname">Name:</label><br>
+    <input type="text" id="fname" name="fname" value="Luke Singh-Afariogun"><br>
+    <label for="lname">Date of birth:</label><br>
+    <input type="text" id="lname" name="lname" value="1/10/2006"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+
+<p>Choose your favorite food:</p>
+
+<form>
+    <input type="radio" id="burgers" name="fav_food" value="burgers">
+    <label for="burgers">burgers</label><br>
+    <input type="radio" id="tacos" name="fav_food" value="tacos">
+    <label for="tacos">tacos</label><br>
+    <input type="radio" id="salad" name="fav_food" value="salad">
+    <label for="salad">salad</label>
+</form>
+
+
+<h2>Checkboxes</h2>
+<p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+
+<form action="/action_page.php">
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="plane">
+    <label for="vehicle1"> I have a plane</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="motorbike">
+    <label for="vehicle2"> I have a motorbike</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="car">
+    <label for="vehicle3"> I have a car</label><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<form action="/action_page.php" method="get">
+    <label for="vol">Volume 0-100:</label>
+    <input type="range" id="vol" name="vol" min="0" max="100">
+    <input type="submit" value="Submit">
+</form>
+
+<form action="/action_page.php">
+    <label for="appt">Select a time:</label>
+    <input type="time" id="appt" name="appt">
+    <input type="submit" value="Submit">
+</form>
+
+<form action="/action_page.php">
+    <label for="week">Select a week:</label>
+    <input type="week" id="week" name="week">
+    <input type="submit" value="Submit">
+</form>
+
+
+<form action="/action_page.php">
+    <label for="fname">Username:</label><br>
+    <input type="text" id="uname" name="uname" size="100"><br>
+    <label for="pin">PIN:</label><br>
+    <input type="text" id="pin" name="pin" size="3"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
